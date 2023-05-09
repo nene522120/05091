@@ -1,0 +1,56 @@
+@charset "UTF-8";
+.box.translate h2 {
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    background-color: #FADFEC;
+    border: 1px solid #000;
+    display: inline-block;
+    text-align: center;
+    line-height: 200px;
+    font-size: 24px;
+    transition: all 0.5s ease;
+    text-decoration: none;
+    text-shadow: 0px 0px #E3C8BF;
+    color: #94827C;
+}
+.box.rotate h2 {
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    background-color: #ACB8E3;
+    border: 1px solid #000;
+    display: inline-block;
+    text-align: center;
+    line-height: 200px;
+    font-size: 24px;
+    transition: all 0.5s ease;
+    color: #EFCF9E;
+}
+.box.scale h2 {
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    background-color: #D6FFE2;
+    border: 1px solid #000;
+    display: inline-block;
+    text-align: center;
+    line-height: 200px;
+    font-size: 24px;
+    transition: all 0.5s ease;
+    color: #596683;
+}
+/* 位移效果 */
+.translate:hover {
+  transform: translate(50px, 50px);
+}
+
+/* 旋轉效果 */
+.rotate:hover {
+  transform: rotate(-5deg);
+}
+
+/* 縮放效果 */
+.scale:hover {
+  transform: scale(1.2);
+}
